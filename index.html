@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Junpyo's portfolio</title>
+  <meta name="description" content="Portfolio for world-renowned soft enjineer junpyo">
+  <meta name="author" content="Junpyo">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="imgs/favicon.png" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="main.js" defer></script>
+  <script src="https://kit.fontawesome.com/0e1ff1c7a9.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav id="navbar">
+    <div class="navbar__logo">
+      <i class="fab fa-diaspora"></i>
+      <a href="#">Junpyo</a>
+    </div>
+    
+      <ul class="navbar__menu">
+        <li class="navbar__menu__item active"data-link="#home">Home</li>
+        <li class="navbar__menu__item"data-link="#about">About</li>
+        <li class="navbar__menu__item"data-link="#skills">Skill</li>
+        <li class="navbar__menu__item"data-link="#work">My work</li>
+        <li class="navbar__menu__item"data-link="#testimonials">Testimonials</li>
+        <li class="navbar__menu__item"data-link="#contact">Contact</li>
+      </ul>
+   
+
+<!-- Toggle button-->
+<button class="navbar__toggle-btn">
+  <i class="fas fa-bars"></i>
+</button>
+
+  </nav>
+  <!-- Home -->
+  <section id="home">
+   <div class="home__container">
+    <img src="imgs/profile-dark.jpg" alt="Junpyo's profile photo" class="home__avatar" />
+    <h1 class="home__title">Hello, <br />I'm Dream Coder </h1>
+    <h2 class="home__description">
+      프론트 엔드 신입 개발자입니다.
+    </h2>
+    <button class="home__contact">Contact Me</button>
+   </div>
+  </section>
+  <!-- About -->
+  <section id="about" class="section section__container">
+    <h1>About me</h1>
+    <p>
+      2020년부터 웹 개발자를 꿈꾸며 스파르타 코딩 클럽을 시작으로 코마드코더, 드림 코딩 등
+      여러 인터넷 강의를 들으며 여러 프로젝트를 진행하고 있습니다.
+    </p>
+    <div class="about__majors">
+      <div class="major">
+        <div class="major__icon">
+          <i class="fab fa-html5"></i>
+        </div>
+        <h2 class="major__title">Front-end</h2>
+        <div class="major__description">
+          HTML, CSS, JaveScript, React
+        </div>
+      </div>
+      <div class="major">
+        <div class="major__icon">
+          <i class="fas fa-mobile-alt"></i>
+        </div>
+        <h2 class="major__title">Mobile</h2>
+        <div class="major__description">
+          
+        </div>
+      </div>
+      <div class="major">
+        <div class="major__icon">
+          <i class="fab fa-python"></i>
+        </div>
+        <h2 class="major__title">Back-end</h2>
+        <div class="major__description">
+          python
+        </div>
+      </div>
+    </div>
+    <div class="about__jobs">
+      <div class="job">
+        <img src="imgs/sparta.png" alt="spartacodingclub" class="jop__logo" />
+        <div class="job__description">
+          <p class="jop__name">spartacodingclub</p>
+          <p class="jop__period">5 week</p>
+        </div>
+      </div>
+      <div class="job">
+        <img src="imgs/nomad.jpg" alt="nomadcoders" class="jop__logo" />
+        <div class="job__description">
+          <p class="jop__name">nomadcoders</p>
+          <p class="jop__period">online lecture</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Skills -->
+  <section id="skills" class="section">
+    <div class="section__container">
+      <h1>Skills</h1>
+    <h2>Skills & Attributes</h2>
+    <p>
+      늘 새로운 걸 배우길 좋아하고 다른 사람들과의 협업을 중요시 여기며,
+      혼자서도 일하는 것 또한 좋아합니다. 프로젝트를 완성할때에
+      얻는 성취감에 밤을 새어도 코딩하는 것이 즐겁습니다.
+    </p>
+    <div class="skillset">
+      <div class="skillset__left">
+        <h3 class="skillset__title">Skills</h3>
+        <div class="skill">
+          <div class="skill__description">
+            <span>HTML</span>
+            <span>90%</span>
+          </div>
+          <div class="skill__bar">
+            <div class="skill__value" style="width: 90%;"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill__description">
+            <span>css</span>
+            <span>80%</span>
+          </div>
+          <div class="skill__bar">
+            <div class="skill__value" style="width: 80%;"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill__description">
+            <span>JaveScript</span>
+            <span>70%</span>
+          </div>
+          <div class="skill__bar">
+            <div class="skill__value" style="width: 70%;"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill__description">
+            <span>React</span>
+            <span>50%</span>
+          </div>
+          <div class="skill__bar">
+            <div class="skill__value" style="width: 50%;"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill__description">
+            <span>Python</span>
+            <span>60%</span>
+          </div>
+          <div class="skill__bar">
+            <div class="skill__value" style="width: 60%;"></div>
+          </div>
+        </div>
+      </div>
+      <div class="skillset__right">
+        <div class="tools">
+          <h3 class="skillset__title">Tools</h3>
+          <ul class="tools__list">
+            <li><span>Visual Studio Code</span></li>
+            <li><span>PyCharm</span></li>
+          </ul>
+        </div>
+        <div class="etc">
+          <h3 class="skillset__title">Etc</h3>
+          <ul class="etc__list">
+            <li><span>Git</span></li>
+            <li><span></span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    </div>
+    
+  </section>
+  <!--Work  -->
+  <section id="work" class="section">
+    <div class="section__container">
+      <h1>My work</h1>
+    <h3>Projects</h3>
+    <div class="work__categories">
+      <button class="category__btn selected" data-filter="*">All <span class="category__count">3</span></button>
+      <button class="category__btn" data-filter="front-end">Front-end <span class="category__count">2</span></button>
+      <button class="category__btn" data-filter="back-end">Back-end <span class="category__count">1</span></button>
+      <button class="category__btn" data-filter="mobile">Mobile <span class="category__count">0</span></button>
+    </div>
+
+    <div class="work__projects">
+      <a href="https://github.com/jpnoh88/kokoa-talk" class="project" target="blank" data-type="front-end">
+        <img 
+        src="https://d1telmomo28umc.cloudfront.net/media/public/avatars/kokoaThumbnail_h8OxaLt_WUzjUct.jpg" 
+        alt="clone coding"
+        class="project__img"
+        >
+        <div class="project__description">
+          <h3>kokoa coding</h3>
+          <span>Clone coding with HTML and CSS</span>
+        </div>
+      </a>
+      <a href="https://github.com/jpnoh88/my-project" class="project" target="blank" data-type="front-end">
+        <img 
+        src="https://d1telmomo28umc.cloudfront.net/media/public/thumbnails/jsThumb.jpg" 
+        alt="바닐라JS"
+        class="project__img"
+        >
+        <div class="project__description">
+          <h3>JS Clock</h3>
+          <span>JS To Do List </span>
+        </div>
+      </a>
+      <a href="#" class="project" target="blank" data-type="back-end">
+        <img 
+        src="https://d1telmomo28umc.cloudfront.net/media/public/avatars/pyThumbnail.jpg" 
+        alt="Python"
+        class="project__img"
+        >
+        <div class="project__description">
+          <h3>Web Scraper</h3>
+          <span>Web Scraper with Python</span>
+        </div>
+      </a>
+      <!-- <a href="#" class="project" target="blank" data-type="mobile">
+        <img 
+        src="imgs/project/project6.png" 
+        alt="youtube"
+        class="project__img"
+        >
+        <div class="project__description">
+          <h3>youtube coding</h3>
+          <span>Clone coding with HTML and CSS</span>
+        </div>
+      </a> -->
+    </div>
+    </div>
+  </section>
+  <!-- Testimonials -->
+  <section id="testimonials" class="section">
+    <div class="section__container">
+      <h1>Testimonials</h1>
+    <h3>See what they say about me</h3>
+    <div class="testimonials">
+      <div class="testimonial">
+        <img src="imgs/nomad.jpg" alt="People" class="testimonial__avatar" />
+        <div class="testimonial__speech-bubble">
+          <img 
+        src="imgs/js.jpg" 
+        alt="수료증"
+        class="project__img"
+        >
+        <img 
+        src="imgs/kokoa.jpg" 
+        alt="수료증"
+        class="project__img"
+        >
+          <p class="name"><a href="">Junpyo</a> / nomad coders</p>
+        </div>
+      </div>
+      <div class="testimonial">
+        <div class="testimonial__speech-bubble">
+          <img 
+        src="imgs/completion.jpg" 
+        alt="수료증"
+        class="project__img"
+        >
+          <p class="name"><a href="">Junpyo</a> / sparta coding</p>
+        </div>
+        <img src="imgs/sparta.png" alt="People" class="testimonial__avatar" />
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <h1 class="contact__title">Let's talk</h1>
+    <h2 class="contact__email">jpnoh88@gmail.com</h2>
+    <div class="contact__link">
+      <a href="https://github.com/jpnoh88" target="_blank">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <p class="contact__rights">
+      2020 Coding Junpyo - All right reserved
+    </p>
+  </section>
+  <!-- Arrow up -->
+  <button class="arrow-up">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+</body>
+
+</html>
